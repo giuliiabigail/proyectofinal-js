@@ -1,0 +1,47 @@
+[
+    {
+    "id": 1,
+    "nombre": "Crema Hidratante",
+    "precio": 25.99,
+    "imagen": "assets/img/crema.jpg",
+    "descripcion": "Crema hidratante para todo tipo de piel."
+    },
+
+    {
+    "id": 2,
+    "nombre": "Serum Antiarrugas",
+    "precio": 40.99,
+    "imagen": "assets/img/serum.jpg",
+    "descripcion": "Serum para reducir arrugas y líneas finas."
+    },
+
+    {
+    "id": 3,
+    "nombre": "Agua Micelar",
+    "precio": 25.99,
+    "imagen": "assets/img/aguamicelarproducto.jpg",
+    "descripcion": "Crema hidratante para todo tipo de piel."
+    },
+
+    {
+    "id": 4,
+    "nombre": "Contorno de Ojos",
+    "precio": 40.99,
+    "imagen": "assets/img/contorno.jpg",
+    "descripcion": "Serum para reducir arrugas y líneas finas."
+    },
+    {
+    "id": 5,
+    "nombre": "Gel de Limpieza Facial",
+    "precio": 25.99,
+    "imagen": "assets/img/gelimpieza.jpg",
+    "descripcion": "Crema hidratante para todo tipo de piel."
+    },
+    {
+        "id": 6,
+        "nombre": "Protector solar",
+        "precio": 25.99,
+        "imagen": "assets/img/protector.jpg",
+        "descripcion": "Crema hidratante para todo tipo de piel."
+        }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Ecommerce</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+
+    <header class="header">
+        <img src="assets/img/logo.seo.ico" alt="Logo Gigi Skincare" class="logo">
+        <h1>SKINCARE GIGI</h1>
+        <button id="abrir-carrito" class="carrito-btn">🛒 Ver Carrito</button>
+    </header>
+<main>
+
+    <div id="carrito-lateral" class="carrito-lateral">
+        <div class="carrito-cerrar" id="cerrar-carrito">✖</div>
+        <h2>Tu Carrito</h2>
+        <ul id="carrito"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </div>
+    <div id="productos" class="productos-lista"></div>
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Gigi Skincare. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+

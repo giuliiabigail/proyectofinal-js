@@ -1,0 +1,222 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.9); 
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: auto; 
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: rgba(2, 2, 2, 0.9);
+  text-align: center;
+  flex-grow: 1;
+}
+
+.carrito-btn {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.carrito-btn:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+.carrito-lateral {
+  position: fixed;
+  top: 0;
+  right: -1000px; 
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.carrito-cerrar {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.carrito-lateral h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.carrito-lateral ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.carrito-lateral ul li {
+  margin: 10px 0;
+  color: rgba(85, 85, 85, 0.8);
+  font-size: 1rem;
+}
+
+#finalizar-compra {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+#finalizar-compra:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+
+/* Productos */
+.productos-lista {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.producto {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.producto p {
+  color: rgba(119, 119, 119, 0.8);
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+button {
+  background-color: rgba(211, 211, 211, 0.8);
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(160, 160, 160, 0.8);
+}
+
+
+
+#formulario {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 600px;
+  width: 90%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
