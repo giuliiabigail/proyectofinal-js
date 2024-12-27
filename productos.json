@@ -20,7 +20,7 @@
     "nombre": "Agua Micelar",
     "precio": 25.99,
     "imagen": "assets/img/aguamicelarproducto.jpg",
-    "descripcion": "Crema hidratante para todo tipo de piel."
+    "descripcion": "Limpia y refresca, elimina impurezas y maquillaje."
     },
 
     {
@@ -28,20 +28,20 @@
     "nombre": "Contorno de Ojos",
     "precio": 40.99,
     "imagen": "assets/img/contorno.jpg",
-    "descripcion": "Serum para reducir arrugas y líneas finas."
+    "descripcion": "Reduce ojeras y bolsas, hidrata y revitaliza la zona del contorno."
     },
     {
     "id": 5,
     "nombre": "Gel de Limpieza Facial",
     "precio": 25.99,
     "imagen": "assets/img/gelimpieza.jpg",
-    "descripcion": "Crema hidratante para todo tipo de piel."
+    "descripcion": "Limpia y elimina impurezas, dejando la piel fresca."
     },
     {
         "id": 6,
         "nombre": "Protector solar",
         "precio": 25.99,
         "imagen": "assets/img/protector.jpg",
-        "descripcion": "Crema hidratante para todo tipo de piel."
+        "descripcion": "Protege del UVA/UVB, hidrata sin dejar residuos grasos."
         }
 ]
